@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -14,9 +15,14 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: const Text("Git Example"),
       ),
-      body: const Center(
-        child: Text(
-          "Git Example"
+      body: Center(
+        child: Container(
+          height: 250,
+          width: 250,
+          color: Colors.red,
+          child: const Text(
+            "Git Example"
+          ),
         ),
       ),
     );
