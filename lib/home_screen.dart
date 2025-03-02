@@ -14,9 +14,12 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: const Text("Git Example"),
       ),
-      body: const Center(
-        child: Text(
-          "Git Example"
+      body: Center(
+        child: ElevatedButton(
+          onPressed: (){},
+          child: const Text(
+              "Git Example"
+          ),
         ),
       ),
     );
